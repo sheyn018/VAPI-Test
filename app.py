@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import requests
 from langchain.prompts import PromptTemplate
-from langchain_community.chat_models import ChatOpenAI
+from langchain.chat_models import ChatOpenAI
 from langchain.chains import LLMChain
 import os
 
